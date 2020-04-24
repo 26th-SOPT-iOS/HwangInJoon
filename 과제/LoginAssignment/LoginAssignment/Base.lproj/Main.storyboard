@@ -170,11 +170,10 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ufR-Ja-gz9">
-                                <rect key="frame" x="0.0" y="715" width="375" height="97"/>
+                                <rect key="frame" x="0.0" y="712" width="375" height="100"/>
                                 <color key="backgroundColor" red="0.078431372549019607" green="0.19607843137254902" blue="0.50588235294117645" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="375" id="KmF-6u-j2J"/>
-                                    <constraint firstAttribute="height" constant="97" id="LEa-II-7bi"/>
+                                    <constraint firstAttribute="height" constant="100" id="Xml-hT-Ger"/>
                                 </constraints>
                                 <state key="normal" title="회원가입하기">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -184,7 +183,10 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="아이디" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nWZ-ng-Plq">
-                                <rect key="frame" x="25" y="409" width="52" height="21"/>
+                                <rect key="frame" x="16" y="409" width="59" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="59" id="CW7-sc-DwR"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -196,19 +198,18 @@
                             <constraint firstItem="GIy-7I-Xd1" firstAttribute="top" secondItem="wjv-ud-Xqa" secondAttribute="bottom" constant="47" id="8Aq-Rj-wrD"/>
                             <constraint firstItem="nWZ-ng-Plq" firstAttribute="top" secondItem="wjv-ud-Xqa" secondAttribute="bottom" constant="54" id="8dF-XS-a6L"/>
                             <constraint firstItem="8Cl-W6-LcV" firstAttribute="leading" secondItem="Mnc-Dv-7LE" secondAttribute="leading" constant="18" id="EOa-2Z-R2y"/>
-                            <constraint firstItem="ufR-Ja-gz9" firstAttribute="top" secondItem="Mnc-Dv-7LE" secondAttribute="top" constant="671" id="L1l-75-n9F"/>
                             <constraint firstItem="i3i-g5-niY" firstAttribute="top" secondItem="GIy-7I-Xd1" secondAttribute="bottom" constant="26" id="MNM-Zj-MKY"/>
                             <constraint firstItem="8Cl-W6-LcV" firstAttribute="top" secondItem="nWZ-ng-Plq" secondAttribute="bottom" constant="36" id="MmT-Og-hgw"/>
                             <constraint firstItem="ufR-Ja-gz9" firstAttribute="leading" secondItem="Mnc-Dv-7LE" secondAttribute="leading" id="WPF-uj-t6N"/>
                             <constraint firstItem="Mnc-Dv-7LE" firstAttribute="trailing" secondItem="i3i-g5-niY" secondAttribute="trailing" constant="16" id="Ztm-bP-6Zj"/>
                             <constraint firstItem="wjv-ud-Xqa" firstAttribute="top" secondItem="Mnc-Dv-7LE" secondAttribute="top" constant="25" id="bkU-W5-kNQ"/>
-                            <constraint firstItem="ufR-Ja-gz9" firstAttribute="bottom" secondItem="Mnc-Dv-7LE" secondAttribute="bottom" constant="34" id="e2B-GI-Bi6"/>
+                            <constraint firstItem="ufR-Ja-gz9" firstAttribute="bottom" secondItem="qer-ex-Qwk" secondAttribute="bottom" id="e2B-GI-Bi6"/>
                             <constraint firstItem="wjv-ud-Xqa" firstAttribute="leading" secondItem="Mnc-Dv-7LE" secondAttribute="leading" id="fbi-j2-GZY"/>
-                            <constraint firstItem="nWZ-ng-Plq" firstAttribute="leading" secondItem="Mnc-Dv-7LE" secondAttribute="leading" constant="25" id="hKE-bI-biS"/>
                             <constraint firstItem="wjv-ud-Xqa" firstAttribute="trailing" secondItem="Mnc-Dv-7LE" secondAttribute="trailing" id="jVu-GM-f1a"/>
-                            <constraint firstItem="GIy-7I-Xd1" firstAttribute="leading" secondItem="nWZ-ng-Plq" secondAttribute="trailing" constant="5" id="lE3-jZ-oBs"/>
                             <constraint firstItem="ufR-Ja-gz9" firstAttribute="trailing" secondItem="Mnc-Dv-7LE" secondAttribute="trailing" id="pfa-Rn-lDr"/>
                             <constraint firstItem="i3i-g5-niY" firstAttribute="leading" secondItem="8Cl-W6-LcV" secondAttribute="trailing" constant="5" id="sYO-rr-cbV"/>
+                            <constraint firstItem="nWZ-ng-Plq" firstAttribute="leading" secondItem="Mnc-Dv-7LE" secondAttribute="leading" constant="16" id="uHH-AX-IhJ"/>
+                            <constraint firstItem="GIy-7I-Xd1" firstAttribute="leading" secondItem="nWZ-ng-Plq" secondAttribute="trailing" constant="7" id="yk3-ld-bFx"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="Mnc-Dv-7LE"/>
                     </view>
@@ -293,11 +294,10 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XLP-sb-ZD9">
-                                <rect key="frame" x="0.0" y="717" width="375" height="95"/>
+                                <rect key="frame" x="0.0" y="712" width="375" height="100"/>
                                 <color key="backgroundColor" red="0.078431372549019607" green="0.19607843137254902" blue="0.50588235294117645" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="375" id="0M0-P2-XbU"/>
-                                    <constraint firstAttribute="height" constant="95" id="LKX-Bw-PTI"/>
+                                    <constraint firstAttribute="height" constant="100" id="LKX-Bw-PTI"/>
                                 </constraints>
                                 <state key="normal" title="로그아웃하기">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -313,15 +313,14 @@
                             <constraint firstItem="rJU-LA-a21" firstAttribute="top" secondItem="693-2H-uxs" secondAttribute="bottom" constant="26" id="2LQ-Br-3nQ"/>
                             <constraint firstItem="4hg-nz-dtr" firstAttribute="leading" secondItem="PYZ-7D-U5p" secondAttribute="leading" constant="18" id="6Je-I0-0AY"/>
                             <constraint firstItem="693-2H-uxs" firstAttribute="top" secondItem="P84-uk-dUp" secondAttribute="bottom" constant="47" id="CPF-0Q-UVH"/>
-                            <constraint firstItem="XLP-sb-ZD9" firstAttribute="top" secondItem="rJU-LA-a21" secondAttribute="bottom" constant="221" id="DPJ-iY-MTJ"/>
                             <constraint firstItem="P84-uk-dUp" firstAttribute="leading" secondItem="PYZ-7D-U5p" secondAttribute="leading" id="GaE-QH-2qS"/>
                             <constraint firstItem="P84-uk-dUp" firstAttribute="top" secondItem="PYZ-7D-U5p" secondAttribute="top" constant="25" id="Lhj-LI-skg"/>
                             <constraint firstItem="XLP-sb-ZD9" firstAttribute="leading" secondItem="PYZ-7D-U5p" secondAttribute="leading" id="Mza-Ku-phr"/>
                             <constraint firstItem="PdT-wV-xo3" firstAttribute="top" secondItem="P84-uk-dUp" secondAttribute="bottom" constant="54" id="T23-9L-jTA"/>
+                            <constraint firstItem="XLP-sb-ZD9" firstAttribute="bottom" secondItem="ltu-yb-OsN" secondAttribute="bottom" id="U4V-4j-8a0"/>
                             <constraint firstItem="XLP-sb-ZD9" firstAttribute="trailing" secondItem="PYZ-7D-U5p" secondAttribute="trailing" id="Yx0-Ki-PLX"/>
                             <constraint firstItem="PYZ-7D-U5p" firstAttribute="trailing" secondItem="693-2H-uxs" secondAttribute="trailing" constant="18" id="bMc-ti-WHd"/>
-                            <constraint firstItem="XLP-sb-ZD9" firstAttribute="top" secondItem="4hg-nz-dtr" secondAttribute="bottom" constant="230" id="e5c-nl-8SK"/>
-                            <constraint firstItem="XLP-sb-ZD9" firstAttribute="top" secondItem="PYZ-7D-U5p" secondAttribute="top" constant="673" id="eme-LC-fXX"/>
+                            <constraint firstItem="4hg-nz-dtr" firstAttribute="top" secondItem="PdT-wV-xo3" secondAttribute="bottom" constant="36" id="f6J-HT-nRJ"/>
                             <constraint firstItem="693-2H-uxs" firstAttribute="leading" secondItem="PdT-wV-xo3" secondAttribute="trailing" constant="5" id="hAK-aJ-qLe"/>
                             <constraint firstItem="PdT-wV-xo3" firstAttribute="leading" secondItem="PYZ-7D-U5p" secondAttribute="leading" constant="18" id="rBj-gE-0Q5"/>
                             <constraint firstItem="rJU-LA-a21" firstAttribute="leading" secondItem="4hg-nz-dtr" secondAttribute="trailing" constant="5" id="uWq-2L-hb7"/>
