@@ -52,9 +52,10 @@ class ViewController: UIViewController {
 extension UIButton {
     open override func awakeFromNib() {
         super.awakeFromNib()
-        
-            self.layer.cornerRadius = 20
-        
+     
+        if self.tag == 1{
+            self.layer.cornerRadius = 10
+        }
     }
 }
 
