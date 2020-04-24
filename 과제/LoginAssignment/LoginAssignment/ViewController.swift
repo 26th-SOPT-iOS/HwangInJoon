@@ -24,7 +24,7 @@ class ViewController: UIViewController {
       
         
         pwTextField.isSecureTextEntry = true
-        // Do any additional setup after loading the view.
+      
     }
 
     @IBAction func touchUpLogInButton(_ sender: Any) {
