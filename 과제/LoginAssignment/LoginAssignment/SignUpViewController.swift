@@ -17,6 +17,8 @@ class SignUpViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        
+        joinPwField.isSecureTextEntry = true
         // Do any additional setup after loading the view.
     }
     

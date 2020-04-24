@@ -22,6 +22,8 @@ class LogOutViewController: UIViewController {
         super.viewDidLoad()
         fillTextField()
         
+       logPwTextField.isSecureTextEntry = true
+        
     }
     func fillTextField(){
           if let id = idString {

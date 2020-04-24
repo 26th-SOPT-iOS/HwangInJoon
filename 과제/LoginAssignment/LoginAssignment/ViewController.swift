@@ -17,7 +17,13 @@ class ViewController: UIViewController {
     @IBOutlet weak var pwTextField: UITextField!
     
     override func viewDidLoad() {
+      
         super.viewDidLoad()
+        logInButton.layer.cornerRadius = 10
+        logOutButton.layer.cornerRadius = 10
+      
+        
+        pwTextField.isSecureTextEntry = true
         // Do any additional setup after loading the view.
     }
 
@@ -39,5 +45,16 @@ class ViewController: UIViewController {
         
     }
     
+}
+
+
+
+extension UIButton {
+    open override func awakeFromNib() {
+        super.awakeFromNib()
+        
+            self.layer.cornerRadius = 20
+        
+    }
 }
 
