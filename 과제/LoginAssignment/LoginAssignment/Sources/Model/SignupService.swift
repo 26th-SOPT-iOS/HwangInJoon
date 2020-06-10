@@ -33,10 +33,13 @@ struct SignupService {
         }
     }
     
-    private func judge(by statusCode: Int, _ data: Data) -> NetworkResult<Any> { switch statusCode {
+    private func judge(by statusCode: Int, _ data: Data) -> NetworkResult<Any> {
+        
+    switch statusCode {
     case 200: return isSignUp(by: data)
     case 400: return .pathErr
     case 500: return .serverErr default: return .networkFail }
+        
     }
     
     private func isSignUp(by data: Data) -> NetworkResult<Any> {

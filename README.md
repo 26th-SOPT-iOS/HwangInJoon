@@ -1,5 +1,16 @@
 # HwangInJun
-황인준
+🖥 26 Sopt OB iOS 황인준 🖥
+***
+
+| 주차  |                      실습 내용 및 주제                       | 구현 |
+| :---: | :----------------------------------------------------------: | :--: |
+| 1주차 | View 전환 및 데이터 전달 / 네비게이션 컨트로러를 이용한 Login Logout 화면 제작 |  🔵   |
+| 2주차 | StackView ScrollView를 이용한 다양한 AutoLayOut 공부 및 View 제작 |  🔵   |
+| 3주차 | Delegate & Protocol, UIPickerVIew, UITableView, UICollectionView 전체적으로 톺아보다. |  🔵   |
+| 4주차 | AlamoFire를 이용한 Post통신 및 Login LogOut 통신하기 + 회원가입 실습 |  🔵   |
+| 5주차 | 디자인 + iOS 합동 세미나 / 국방부앱 리뉴얼 제작 완성 (ScrollView + CollectionView + CustomTabbar) |  🔵   |
+| 6주차 | Server + iOS 합동 세미나 / 서버APi를 이용해 Data를 get통신 후 , View에 맞게 대입 |  🔵   |
+
 ***
 
 

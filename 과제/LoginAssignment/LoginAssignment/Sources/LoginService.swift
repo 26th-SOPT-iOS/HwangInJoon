@@ -31,10 +31,13 @@ struct LoginService {
         }
     }
     
-    private func judge(by statusCode: Int, _ data: Data) -> NetworkResult<Any> { switch statusCode {
-    case 200: return isUser(by: data)
-    case 400: return .pathErr
-    case 500: return .serverErr default: return .networkFail }
+    private func judge(by statusCode: Int, _ data: Data) -> NetworkResult<Any> {
+        switch statusCode {
+        case 200: return isUser(by: data)
+        case 400: return .pathErr
+        case 500: return .serverErr default: return .networkFail
+            
+        }
     }
     
     private func isUser(by data: Data) -> NetworkResult<Any> {

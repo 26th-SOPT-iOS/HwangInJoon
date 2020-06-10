@@ -56,6 +56,7 @@ class SignUpViewController: UIViewController {
                 print("회원 가입 성공")
                 print("성공 메세지: \(sucessMessage)")
                 
+                
             case .requestErr(let message):
                 guard let message = message as? String else { return }
                 let alertViewController = UIAlertController(title: "회원가입 실패", message: message,

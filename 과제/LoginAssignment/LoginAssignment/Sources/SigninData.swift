@@ -8,7 +8,8 @@
 
 import Foundation
 
-struct SigininData: Codable { var status: Int
+struct SigininData: Codable {
+    var status: Int
     var success: Bool
     var message: String
     var data: TokenData?

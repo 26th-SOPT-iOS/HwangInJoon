@@ -16,13 +16,13 @@
 		55CBD825246FAFB8003AE9FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55CBD823246FAFB8003AE9FC /* Main.storyboard */; };
 		55CBD826246FAFB8003AE9FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55CBD824246FAFB8003AE9FC /* LaunchScreen.storyboard */; };
 		55CBD828246FB08B003AE9FC /* LogOutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55CBD827246FB08B003AE9FC /* LogOutViewController.swift */; };
-		55DB66DF246FBDA000FA5DF3 /* APIConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DB66DE246FBDA000FA5DF3 /* APIConstants.swift */; };
 		55DB66E1246FBE7800FA5DF3 /* SigninData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DB66E0246FBE7800FA5DF3 /* SigninData.swift */; };
 		55DB66E4246FBFE800FA5DF3 /* NetworkResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DB66E3246FBFE800FA5DF3 /* NetworkResult.swift */; };
 		55DB66E6246FC57900FA5DF3 /* LoginService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DB66E5246FC57900FA5DF3 /* LoginService.swift */; };
 		55DB66E8246FCFFA00FA5DF3 /* CustomTabbarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DB66E7246FCFFA00FA5DF3 /* CustomTabbarController.swift */; };
 		55DB66EA246FD13C00FA5DF3 /* SignupData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DB66E9246FD13C00FA5DF3 /* SignupData.swift */; };
 		55DB66EC246FD2A600FA5DF3 /* SignupService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DB66EB246FD2A600FA5DF3 /* SignupService.swift */; };
+		55DB66EF246FDB0400FA5DF3 /* APIConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DB66EE246FDB0400FA5DF3 /* APIConstants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,13 +38,13 @@
 		55CBD823246FAFB8003AE9FC /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		55CBD824246FAFB8003AE9FC /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		55CBD827246FB08B003AE9FC /* LogOutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogOutViewController.swift; sourceTree = "<group>"; };
-		55DB66DE246FBDA000FA5DF3 /* APIConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = APIConstants.swift; path = ../../Resources/APIConstants.swift; sourceTree = "<group>"; };
 		55DB66E0246FBE7800FA5DF3 /* SigninData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SigninData.swift; path = ../SigninData.swift; sourceTree = "<group>"; };
 		55DB66E3246FBFE800FA5DF3 /* NetworkResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkResult.swift; sourceTree = "<group>"; };
 		55DB66E5246FC57900FA5DF3 /* LoginService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LoginService.swift; path = ../LoginService.swift; sourceTree = "<group>"; };
 		55DB66E7246FCFFA00FA5DF3 /* CustomTabbarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabbarController.swift; sourceTree = "<group>"; };
 		55DB66E9246FD13C00FA5DF3 /* SignupData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupData.swift; sourceTree = "<group>"; };
 		55DB66EB246FD2A600FA5DF3 /* SignupService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupService.swift; sourceTree = "<group>"; };
+		55DB66EE246FDB0400FA5DF3 /* APIConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIConstants.swift; sourceTree = "<group>"; };
 		9A422B6624107F3BAE2AE550 /* Pods-LoginAssignment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoginAssignment.release.xcconfig"; path = "Target Support Files/Pods-LoginAssignment/Pods-LoginAssignment.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -141,7 +141,7 @@
 		55DB66E2246FBFC700FA5DF3 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				55DB66DE246FBDA000FA5DF3 /* APIConstants.swift */,
+				55DB66EE246FDB0400FA5DF3 /* APIConstants.swift */,
 				55DB66E0246FBE7800FA5DF3 /* SigninData.swift */,
 				55DB66E9246FD13C00FA5DF3 /* SignupData.swift */,
 				55DB66E3246FBFE800FA5DF3 /* NetworkResult.swift */,
@@ -276,12 +276,12 @@
 				55DB66E8246FCFFA00FA5DF3 /* CustomTabbarController.swift in Sources */,
 				55459FF3245306FA00939F67 /* ViewController.swift in Sources */,
 				55459FEF245306FA00939F67 /* AppDelegate.swift in Sources */,
-				55DB66DF246FBDA000FA5DF3 /* APIConstants.swift in Sources */,
 				5545A00324530A4500939F67 /* SignUpViewController.swift in Sources */,
 				55DB66E6246FC57900FA5DF3 /* LoginService.swift in Sources */,
 				55DB66E1246FBE7800FA5DF3 /* SigninData.swift in Sources */,
 				55DB66EA246FD13C00FA5DF3 /* SignupData.swift in Sources */,
 				55CBD828246FB08B003AE9FC /* LogOutViewController.swift in Sources */,
+				55DB66EF246FDB0400FA5DF3 /* APIConstants.swift in Sources */,
 				55DB66EC246FD2A600FA5DF3 /* SignupService.swift in Sources */,
 				55459FF1245306FA00939F67 /* SceneDelegate.swift in Sources */,
 				55DB66E4246FBFE800FA5DF3 /* NetworkResult.swift in Sources */,

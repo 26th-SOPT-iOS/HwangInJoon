@@ -8,7 +8,8 @@
 
 import Foundation
 
-struct SigupData: Codable { var status: Int
+struct SigupData: Codable {
+    var status: Int
     var success: Bool
     var message: String
     enum CodingKeys: String, CodingKey {
