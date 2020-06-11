@@ -48,5 +48,16 @@ pwTextField.isSecureTextEntry = true
 //회원가입화면뷰 - 다음뷰를 프레젠트하며, 컴플리션을 이용해 네비게이션 컨트롤러의 뷰컨을 팝해준다.
 ```
 
+***
 
+## Design + Server + iOS 합동 세미나 및 과제 [4,5,6차 세미나 통합]
 
+****
+
+* 국방부 앱 [TheCamp]앱 리뉴얼
+* HomeButton이 있는 커스텀 탭바 컨트롤러 -> 뷰와 버튼을 커스텀해서 새로운 탭바형태 기능의 탭바 뷰를 제작(커스텀이 더욱 용이)
+* HomeButton은 항상 지정된 위치에 고정 및 고정된 기능이므로, SuperView에 위치를 고정
+* 스크롤뷰 안에 컬렉션뷰로 구성된 레이아웃 , 단 컬렉션뷰는 Carousel 효과를 주었음 
+* PageViewController를 이용해서 구현했지만, 좌우의 뷰 아이템이 살짝씩 보여야 하는데 PageViewController로는 힘들어서 컬렉션뷰로 수정
+
+### ![TheCampt시연](https://user-images.githubusercontent.com/55793344/84371986-6fe83100-ac15-11ea-9024-9f1f519cc7af.gif)
