@@ -1,0 +1,6 @@
+framework module Pods_4thSemina {
+  umbrella header "Pods-4thSemina-umbrella.h"
+
+  export *
+  module * { export * }
+}
