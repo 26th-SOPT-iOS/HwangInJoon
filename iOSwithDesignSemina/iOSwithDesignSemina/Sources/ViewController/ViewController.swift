@@ -199,11 +199,12 @@ extension ViewController: UICollectionViewDataSource, UICollectionViewDelegate {
 //                if let index: IndexPath = self.pagingCollectionView.indexPath(for: cell){
 //                    if index.row == indexPath.row{
                         
-                        cell.soldierProfileImageView.image = UIImage(data: imageData)
-                        
+                 //       cell.soldierProfileImageView.image = UIImage(data: imageData)
+                cell.soldierProfileImageView.kf.indicatorType = .activity
+                cell.soldierProfileImageView.kf.setImage(with:imageURL, placeholder: nil , options: [.transition(.fade(0.5))])
 //                    }else{
-//                        cell.soldierProfileImageView.image = UIImage(named: "mainBtnMail")
-//
+//                       // cell.soldierProfileImageView.image = UIImage(named: "mainBtnMail")
+//                        cell.soldierProfileImageView.kf.setImage(with: imageURL)
 //                    }
 //                }
             }

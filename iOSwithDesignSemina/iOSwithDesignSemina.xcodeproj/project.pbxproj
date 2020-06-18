@@ -23,9 +23,11 @@
 		55ECADC8247E33AB00E8A270 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55ECADC7247E33AB00E8A270 /* PageViewController.swift */; };
 		55ECADCA247FFB0700E8A270 /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55ECADC9247FFB0700E8A270 /* CollectionViewController.swift */; };
 		55ECADCE2480091100E8A270 /* CustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 55ECADCD2480091100E8A270 /* CustomCell.xib */; };
+		71D1ED56451991E33B2E7B6D /* Pods_iOSwithDesignSemina.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACB9F4E243A39AADC65BD172 /* Pods_iOSwithDesignSemina.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		20B4A56D94E4D8212387A21F /* Pods-iOSwithDesignSemina.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSwithDesignSemina.release.xcconfig"; path = "Target Support Files/Pods-iOSwithDesignSemina/Pods-iOSwithDesignSemina.release.xcconfig"; sourceTree = "<group>"; };
 		55457AFF248F5891004F3DCA /* APIConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConstants.swift; sourceTree = "<group>"; };
 		55457B01248F5A64004F3DCA /* NoticeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoticeModel.swift; sourceTree = "<group>"; };
 		55457B03248F70D9004F3DCA /* SoldierModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoldierModel.swift; sourceTree = "<group>"; };
@@ -44,6 +46,8 @@
 		55ECADC7247E33AB00E8A270 /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
 		55ECADC9247FFB0700E8A270 /* CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
 		55ECADCD2480091100E8A270 /* CustomCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomCell.xib; sourceTree = "<group>"; };
+		A98CE84123CB7D8FFA20A474 /* Pods-iOSwithDesignSemina.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSwithDesignSemina.debug.xcconfig"; path = "Target Support Files/Pods-iOSwithDesignSemina/Pods-iOSwithDesignSemina.debug.xcconfig"; sourceTree = "<group>"; };
+		ACB9F4E243A39AADC65BD172 /* Pods_iOSwithDesignSemina.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOSwithDesignSemina.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				71D1ED56451991E33B2E7B6D /* Pods_iOSwithDesignSemina.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,6 +95,8 @@
 			children = (
 				55856431247C16940073553B /* iOSwithDesignSemina */,
 				55856430247C16940073553B /* Products */,
+				A19EB8FE4941A227C0F8D256 /* Pods */,
+				C1CE37EC37544ED4E7B7B9D6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -145,6 +152,24 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		A19EB8FE4941A227C0F8D256 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A98CE84123CB7D8FFA20A474 /* Pods-iOSwithDesignSemina.debug.xcconfig */,
+				20B4A56D94E4D8212387A21F /* Pods-iOSwithDesignSemina.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C1CE37EC37544ED4E7B7B9D6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ACB9F4E243A39AADC65BD172 /* Pods_iOSwithDesignSemina.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -152,9 +177,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 55856443247C16950073553B /* Build configuration list for PBXNativeTarget "iOSwithDesignSemina" */;
 			buildPhases = (
+				45737156EA83F2196D326322 /* [CP] Check Pods Manifest.lock */,
 				5585642B247C16940073553B /* Sources */,
 				5585642C247C16940073553B /* Frameworks */,
 				5585642D247C16940073553B /* Resources */,
+				F3EFC5A8E174C4391CFFAA38 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -212,6 +239,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		45737156EA83F2196D326322 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iOSwithDesignSemina-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F3EFC5A8E174C4391CFFAA38 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iOSwithDesignSemina/Pods-iOSwithDesignSemina-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iOSwithDesignSemina/Pods-iOSwithDesignSemina-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iOSwithDesignSemina/Pods-iOSwithDesignSemina-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		5585642B247C16940073553B /* Sources */ = {
@@ -370,6 +439,7 @@
 		};
 		55856444247C16950073553B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A98CE84123CB7D8FFA20A474 /* Pods-iOSwithDesignSemina.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -388,6 +458,7 @@
 		};
 		55856445247C16950073553B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20B4A56D94E4D8212387A21F /* Pods-iOSwithDesignSemina.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
